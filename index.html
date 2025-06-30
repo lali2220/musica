@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>🎵 Canciones - CM</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      color: #00ffcc;
+    }
+    .song-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .song {
+      background-color: #1a1a1a;
+      padding: 1rem;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 500px;
+      box-shadow: 0 0 10px #00ffcc44;
+    }
+    audio {
+      width: 100%;
+      margin-top: 1rem;
+    }
+    .song-title {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #00ffaa;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎧 Lista de Canciones - Combate Militar</h1>
+
+  <div class="song-list">
+
+    <div class="song">
+      <div class="song-title">Battle I - CM</div>
+      <audio controls>
+        <source src="battle-i-cm.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+      </audio>
+    </div>
+
+    <div class="song">
+      <div class="song-title">Battle II - CM</div>
+      <audio controls>
+        <source src="battle-ii-cm.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+      </audio>
+    </div>
+
+    <!-- Agrega más canciones abajo -->
+    <!--
+    <div class="song">
+      <div class="song-title">Battle III - CM</div>
+      <audio controls>
+        <source src="battle-iii-cm.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+      </audio>
+    </div>
+    -->
+
+  </div>
+</body>
+</html>
